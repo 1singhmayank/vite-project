@@ -1,0 +1,120 @@
+/* Weather.css */
+.weather {
+    height: 50%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(135deg, #3f6089, #ece7f1);
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #fff;
+    min-height: 100vh;
+    transition: width 0.5s ease-in-out;
+  }
+  .weather:hover {
+width:53% ;
+  }
+  
+  .head{
+    margin: 3rem;
+     
+  }
+  .title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    text-align: center;
+    color: #fffa65;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .search-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  
+  .search-bar input {
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    border: none;
+    outline: none;
+    margin-right: 1rem;
+    font-size: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .search-bar input:hover {
+    transform: scale(1.05);
+  }
+  
+  .search-bar img {
+    cursor: pointer;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .search-bar img:hover {
+    transform: scale(1.3);
+  }
+  
+  .wicon {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .temp {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 1rem 0;
+  }
+  
+  .loc {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .weatherdata {
+    display: flex;
+    gap: 2rem;
+  }
+  
+  .col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background 0.5s ease-in-out, transform 0.5s ease-in-out;
+  }
+  
+  .col:hover {
+    background: rgba(94, 154, 191, 0.4);
+    transform: scale(1.05);
+  }
+  
+  .col img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 0.5rem;
+  }
+  
+  .data {
+    text-align: center;
+  }
+  
+  .data p {
+    margin: 0;
+    font-size: 1.2rem;
+  }
+  
+  .data span {
+    font-size: 0.9rem;
+    color: #ddd;
+  }
+  
